@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dad jokes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body background="/image/maxresdefault.jpg">
+    
+    <header>
+        <span><img src="/image/meme-face-transparent-background-13.png" alt="" height="300px" width="250px"></span>
+       Dad Jokesss
+       </header>
+       
+    <div class="button"> 
+      See Answers
+    <a href="/answers"></a>
+    </div>
+
+    
+     
+    
+</div>
+    <div class = "wrapper">
+        <div class = "jokes">
+         <% for (const joke of jokes) { %>
+         <div class="custom-box">
+        <a href="/delete?id=<%= joke.jokesid%>"> delete</a>       
+         <div class="user"><%= joke.username%></div>
+         <div class="jokebody"><%= joke.jokebody%></div>
+         </div>   
+         <% } %> 
+        </div>
+    
+    </div>
+</body>
+</html>
+
+
+
+
+
+

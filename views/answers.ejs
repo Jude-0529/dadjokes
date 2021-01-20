@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dad jokes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body background="/image/meme-face-transparent-background-13">
+
+    <header>
+     <span><img src="/image/meme-face-transparent-background-13.png" alt="" height="300px" width="250px"></span>
+    Dad Jokesss
+    </header>
+
+    <div class="button"> 
+        Back to Jokes
+        <a href="/"> see answer</a>
+    </div>
+   
+    <div class = "wrapper">
+        <div class = "jokes">
+        <% for (const answer of ans) { %>
+        <div class="custom-box">
+        <div class="jokeanswer"><%= answer.answer%></div>
+        </div>
+         <% } %> 
+        </div>
+    </div>
+</body>
+</html>

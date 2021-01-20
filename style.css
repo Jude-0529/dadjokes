@@ -1,0 +1,105 @@
+body{
+    background-attachment: fixed;
+    background-size: fill;
+    font-size: 12px;
+    background-color: rgb(255, 253, 235);
+
+}
+
+header {
+    position: relative;
+    margin-top: 0px;
+    background-color: burlywood;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 80px;
+    text-align: center;
+    color:white;
+    text-shadow: 5px 5px 5px rgb(139, 134, 104);
+    width: 100%;
+    border-radius: 5px;
+}   
+
+a{ 
+    display: flex;
+    position: fixed;
+    padding-left: 300px;
+    padding-top: 150px;
+    text-align: end;
+    color: white;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif; 
+    padding-bottom: 30px;
+}
+
+.custom-box{
+    border: 20px solid darkgoldenrod;
+    background-color: rgb(251, 255, 189);
+    width: 300px;
+    height: 300px;
+    max-width: 400px;
+    max-height: 500px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 50px;
+    opacity: 110%;
+    text-decoration: black 2px;
+    
+
+}
+
+.user{
+    text-align: start;
+    color: rgb(2, 0, 0);
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif; 
+    padding-bottom: 30px;
+}
+
+.jokebody{
+    text-align: center;
+    color: rgb(5, 0, 0);
+    font-size: 45px;
+    font-family: 'Montserrat', sans-serif; 
+    padding-bottom: 30px;
+}
+
+.jokeanswer{
+    padding-top: 80px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif; 
+    padding-bottom: 30px;
+}
+
+
+
+.jokes{
+    padding-top: 200px;
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+}
+
+.button{
+  padding-top: 15px;
+  color: white;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif; 
+  text-align: center;
+  border: 5px solid black;
+  position: fixed;
+  height: 60px;
+  width: 250px;
+  bottom: 50px;
+  right: 50px;
+  left: 43.5%;
+  background-color: rgb(212, 94, 73);
+  border-radius: 30px;
+  align-self: end;
+  z-index: 999;
+  box-shadow: 3px , darkgray;
+ 
+}
